@@ -5,7 +5,7 @@ namespace Tyuiu.skirnevskyBR.Sprint6.Task0.V16.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalculate()
+        public void ValidCalculate() 
         {
             DataService ds = new DataService();
             int x = 3;

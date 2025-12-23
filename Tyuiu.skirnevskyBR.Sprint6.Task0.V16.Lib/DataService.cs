@@ -3,7 +3,7 @@ namespace Tyuiu.skirnevskyBR.Sprint6.Task0.V16.Lib
 {
     public class DataService : ISprint6Task0V16
     {
-        public double Calculate(int x)
+        public double Calculate(int x) 
         {
             double result = (1 + Math.Pow(x, 3)) / Math.Pow(x, 2);
             return Math.Round(result, 3);
